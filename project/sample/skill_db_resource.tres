@@ -1,0 +1,12 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://c1uy8nwjihlmk"]
+
+[ext_resource type="Script" uid="uid://tqdvieaca7r8" path="res://sample/skill_db.gd" id="1_54xva"]
+
+[resource]
+script = ExtResource("1_54xva")
+data = Dictionary[String, String]({
+"Dash": "This is dash",
+"Hyper Beam": "This is beam",
+"Hyper Kick": "This is kick",
+"Hyper Punch": "This is punch"
+})
